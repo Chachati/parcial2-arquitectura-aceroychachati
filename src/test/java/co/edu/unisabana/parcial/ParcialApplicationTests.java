@@ -6,10 +6,15 @@ import org.springframework.test.context.ActiveProfiles;
 
 @SpringBootTest
 @ActiveProfiles("test")
+
 class ParcialApplicationTests {
 
 	@Test
 	void contextLoads() {
+	}
+
+	@Test
+	void contextLoads2() {
 	}
 
 }
